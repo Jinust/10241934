@@ -6,11 +6,12 @@
 /*   By: hyehwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 14:49:31 by hyehwang          #+#    #+#             */
-/*   Updated: 2021/10/26 14:50:25 by hyehwang         ###   ########.fr       */
+/*   Updated: 2021/10/26 18:32:33 by hyehwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include<unistd.h>
 
-
-void ft_ft(int *nbr){
+void	ft_ft(int *nbr)
+{
 	*nbr = 42;
 }

@@ -6,13 +6,15 @@
 /*   By: hyehwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 14:51:56 by hyehwang          #+#    #+#             */
-/*   Updated: 2021/10/26 14:51:08 by hyehwang         ###   ########.fr       */
+/*   Updated: 2021/10/26 18:37:35 by hyehwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include<unistd.h>
 
+void	ft_swap(int *a, int *b)
+{
+	int	temp;
 
-void ft_swap(int *a,int *b){
-	int temp;
 	temp = *a;
 	*a = *b;
 	*b = temp;

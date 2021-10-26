@@ -6,23 +6,22 @@
 /*   By: hyehwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 16:02:47 by hyehwang          #+#    #+#             */
-/*   Updated: 2021/10/26 14:53:22 by hyehwang         ###   ########.fr       */
+/*   Updated: 2021/10/26 19:26:06 by hyehwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include<unistd.h>
 
+void	ft_rev_tab(int *tab, int size)
+{
+	int	rev[];
+	int	n;
+	int	t;
 
-
-void ft_rev_tab(int *tab,int size){
-
-	int rev[size];
-	int n =0;
-	int t = size-1;
-	while(n<=t){
-		rev[n] = tab[t-n];
+	n = 0;
+	t = (size - 1);
+	while (n <= t)
+	{
+		rev[n] = tab[t - n];
 		n++;
-
 	}
-
 }
-
-

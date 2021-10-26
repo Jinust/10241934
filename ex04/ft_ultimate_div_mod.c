@@ -6,17 +6,18 @@
 /*   By: hyehwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 14:57:23 by hyehwang          #+#    #+#             */
-/*   Updated: 2021/10/26 14:51:58 by hyehwang         ###   ########.fr       */
+/*   Updated: 2021/10/26 18:52:01 by hyehwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include<unistd.h>
 
+void	ft_ultimate_div_mod(int *a, int *b)
+{
+	int	n;
+	int	m;
 
-void ft_ultimate_div_mod(int *a,int *b){
-	int n;
-	int m;
-	n =*a;
+	n = *a;
 	m = *b;
-	*a = a/b;
-	*b = a%b;	
-
+	*a = a / b;
+	*b = a % b;
 }

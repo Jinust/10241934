@@ -6,17 +6,19 @@
 /*   By: hyehwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 15:50:44 by hyehwang          #+#    #+#             */
-/*   Updated: 2021/10/26 14:53:04 by hyehwang         ###   ########.fr       */
+/*   Updated: 2021/10/26 19:15:58 by hyehwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include<unistd.h>
 
+int	ft_strlen(char *str)
+{
+	int	n;
 
-int ft_strlen(char *str){
-	int n = 0;
-	while(str[n] !=0){
-	 n++;
+	n = 0;
+	while (str[n] != 0)
+	{
+		n++;
 	}
-	return n;
-
+	return (n);
 }
-

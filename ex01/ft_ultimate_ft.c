@@ -6,12 +6,12 @@
 /*   By: hyehwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 14:46:27 by hyehwang          #+#    #+#             */
-/*   Updated: 2021/10/26 14:50:48 by hyehwang         ###   ########.fr       */
+/*   Updated: 2021/10/26 18:33:25 by hyehwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include<unistd.h>
 
-
-void ft_ultimate_ft(int *********nbr){
-
+void	ft_ultimate_ft(int *********nbr)
+{
 	*********nbr = 42;
 }
