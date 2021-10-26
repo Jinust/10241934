@@ -6,11 +6,10 @@
 /*   By: hyehwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 15:50:44 by hyehwang          #+#    #+#             */
-/*   Updated: 2021/10/24 16:01:56 by hyehwang         ###   ########.fr       */
+/*   Updated: 2021/10/26 14:53:04 by hyehwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
 
 int ft_strlen(char *str){
 	int n = 0;

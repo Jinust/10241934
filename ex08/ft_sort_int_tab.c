@@ -6,12 +6,9 @@
 /*   By: hyehwang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 17:14:53 by hyehwang          #+#    #+#             */
-/*   Updated: 2021/10/24 19:29:18 by hyehwang         ###   ########.fr       */
+/*   Updated: 2021/10/26 14:54:07 by hyehwang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include<unistd.h>
-#include<stdio.h>
 
 
 void ft_sort_int_tab(int *tab,int size){
